@@ -4,6 +4,10 @@
 
 body {
     background-color: rgb(221, 233, 220);
+    background-image: url("https://images.pexels.com/photos/2382681/pexels-photo-2382681.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -13,12 +17,14 @@ h1 {
     text-align: center;
     font-size: 50px;
     margin: 20px;
+    border: solid 5px;
+    border-color: rgb(0, 102, 31);
 }
 
 div {
     background-color: rgb(155, 209, 150);
     border-radius: 5px;
-    border-width: 5px;
+    border: solid 5px;
     margin: 20px;
     padding: 10px;
     border-color: rgb(0, 102, 31);
@@ -37,5 +43,18 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    border: solid 5px;
+    border-color: rgb(155, 209, 150);
+}
+
+.footnote {
+    margin-top: 500px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    padding-bottom: 200px;
+    border: 0px;
+    border-radius: 0px;
+    border-top: 5px solid rgb(0, 102, 31);
 }
 
